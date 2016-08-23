@@ -2,6 +2,6 @@
     <sdkVersion>9.0</sdkVersion>
     <linkerOptions>
         <option>-framework MessageUI -framework ImageIO</option>
-        <option>-ios_version_min_ 6.1</option>
+        <option>-ios_version_min 6.1</option>
     </linkerOptions>
 </platform>
