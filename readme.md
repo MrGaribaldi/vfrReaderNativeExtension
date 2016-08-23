@@ -1,5 +1,13 @@
 # vfr Rader Native Extension #
 
+## Quick start ##
+
+To compile swc use the following command from the build directory
+
+	compc -source-path ../VfrPdfReaderAS/src/  -include-classes pl.mllr.extensions.vfrPdfReader.VfrPdfReader -output ./VfrPdfReader.swc 
+
+Then run the ./aneBuild.sh which will compile the .ane using the command specified under ANE compilation.
+
 ### Latest changes:
 * Updated the vfr reader to latest version from github (2.6, includes ARC support)
 * Updated for iOS 6 (but also kept iOS 5 support)
